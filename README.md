@@ -1,3 +1,5 @@
+![Hot Pot](/package.jpg "Hot Pot")
+
 # Hot Pot
 
 ## Scalable Node.js Boilerplate for AWS and DynamoDB.

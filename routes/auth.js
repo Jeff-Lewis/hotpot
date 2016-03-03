@@ -1,4 +1,4 @@
-module.exports = function(router, modules, env) {
+module.exports = function(router, modules) {
     
     router.use(modules.helpers);
     router.use(modules.session);
