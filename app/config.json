@@ -1,0 +1,45 @@
+{
+    "app": {
+        "name": "Default App Name",
+        "prefix": "foo",
+        "port": 3000
+    },
+    "encrpytion": {
+        "cookie": "asdfasdfasdfasdfasdfasdf",
+        "session": "qwertyqwertyqwertyqwerty",
+        "hash": "zxcvzxcvzxcvzxcvzxcvzxcv"
+    },
+    "aws": {
+        "accessKeyId": "*****",
+        "secretAccessKey": "*****",
+        "maxRetries": 5,
+        "region": "us-east-1"
+    }, 
+    "facebook": { 
+        "id": "*****",
+        "secret": "*****"
+    },
+    "google": { 
+        "id": "*****",
+        "secret": "*****",
+        "apikey": "*****"
+    },
+    "instagram": {
+        "id": "*****",
+        "secret": "*****"
+    },
+    "twitter": { 
+        "id": "*****",
+        "secret": "*****"
+    },
+    "stripe": {
+        "test": {
+            "secret": "*****",
+            "public": "*****"
+        },
+        "live": {
+            "secret": "*****",
+            "public": "*****"
+        }
+    }
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <% include ../partials/header %>
+    </head>
+    <body class="texture">
+        <div id="cl-wrapper" class="error-container">
+            <div class="hidden-xs" style="height: 60px;">
+                &nbsp;
+            </div>
+            <div class="page-error" style="padding: 10px; margin-top: 20px; margin-bottom: 10px;">
+                <div class="hidden-xs">
+                    <h1 class="number text-center"><%= res.statusCode %></h1>
+                    <h2 class="description text-center">Page Not Found.</h2>
+                </div>
+                <div class="visible-xs">
+                    <h1 class="number text-center"><%= res.statusCode %></h1>
+                    <h5 class="color-white text-center">Page Not Found.</h5>
+                </div>
+            </div>
+        </div>
+        
+        <div style="position: fixed; width: 100%; bottom: 0px; color: white; padding-bottom: 5px;" class="text-center raleway">
+            &copy; Ciusi <%= Date.create().getFullYear() %>
+        </div>
+        
+        <% include ../partials/footer %>
+    </body>
+</html>

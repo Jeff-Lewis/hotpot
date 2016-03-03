@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <% include ../partials/header %>
+    </head>
+    <body class="texture">
+        <div id="cl-wrapper" class="error-container">
+            <div class="hidden-xs" style="height: 60px;">
+                &nbsp;
+            </div>
+            <div class="page-error" style="padding: 10px; margin-top: 20px; margin-bottom: 10px;">
+                <div class="hidden-xs">
+                    <h1 class="number text-center">Oops!</h1>
+                    <h2 class="description text-center">Something went wrong.</h2>
+                </div>
+                <div class="visible-xs">
+                    <h1 class="number text-center">Oops!</h1>
+                    <h5 class="color-white text-center">Something went wrong.</h5>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3 text-center" style="margin-top: 50px; color: white;">
+                        <%= data.errors %>
+                        Try again.
+                    </div>
+                </div>
+                <p class="text-center" style="margin-top: 25px; color: white;">
+                    <a href="/app" class="btn btn-success">
+                        <i class="fa fa-sign-in"></i>
+                        Back to App
+                    </a>
+				</p>
+            </div>
+        </div>
+        
+        <div style="position: fixed; width: 100%; bottom: 0px; color: white; padding-bottom: 5px;" class="text-center raleway">
+            &copy; Ciusi <%= Date.create().getFullYear() %>
+        </div>
+        
+        <% include ../partials/footer %>
+    </body>
+</html>
